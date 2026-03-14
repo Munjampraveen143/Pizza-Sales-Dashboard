@@ -18,7 +18,8 @@ Monthly and quarterly sales trends
 
 The project demonstrates skills in data analysis, data modeling, DAX calculations, and interactive dashboard creation.
 
-🎯 Project Objectives
+
+# 🎯 Project Objectives
 
 The primary objectives of this project are:
 
@@ -32,22 +33,23 @@ Evaluate revenue trends across time
 
 Provide insights to support data-driven decision making
 
-📊 Dashboard Pages
+ ## 📊 Dashboard Pages
 
 The Power BI report consists of two interactive dashboard pages:
 
-1️⃣ Pizza Sales Overview Dashboard
+## 1️⃣ Pizza Sales Overview Dashboard
 
 This dashboard provides a high-level summary of pizza sales performance.
 
-📈 Key Performance Indicators (KPIs)
+## 📈 Key Performance Indicators (KPIs)
 Metric	Value
 Total Revenue	817.86K
 Total Orders	21K
 Average Order Value	38.31
 Total Pizzas Sold	50K
 Average Pizzas per Order	2.32
-📅 Total Orders by Day
+
+## 📅 Total Orders by Day
 
 This visualization shows daily order distribution.
 
@@ -57,7 +59,7 @@ Friday has the highest number of orders
 
 Sunday has the lowest orders
 
-📊 Total Orders by Month
+## 📊 Total Orders by Month
 
 This chart tracks monthly sales trends throughout the year.
 
@@ -67,7 +69,7 @@ Orders steadily increase throughout the year
 
 Peak sales occur around mid-year months
 
-📉 Total Revenue by Quarter
+## 📉 Total Revenue by Quarter
 
 This visualization compares revenue performance by quarter.
 
@@ -77,7 +79,7 @@ Q2 generates the highest revenue
 
 Slight decrease observed toward Q4
 
-🍕 Revenue by Pizza Category
+## 🍕 Revenue by Pizza Category
 
 Pizza categories analyzed:
 
@@ -93,7 +95,7 @@ Insights
 
 Classic pizzas generate the highest revenue share
 
-📏 Revenue by Pizza Size
+## 📏 Revenue by Pizza Size
 
 Pizza sizes included in the analysis:
 
@@ -113,7 +115,7 @@ Large pizzas contribute nearly 46% of total revenue
 
 XXL pizzas contribute the least
 
-🍕 Total Pizzas Sold by Category
+## 🍕 Total Pizzas Sold by Category
 
 Displays total quantity sold per category.
 
@@ -123,11 +125,13 @@ Classic pizzas are the most popular
 
 Chicken pizzas have the lowest sales quantity
 
-🏆 Best & Worst Sellers Dashboard
+
+## 🏆 Best & Worst Sellers Dashboard
 
 This dashboard identifies top and bottom performing pizzas based on revenue, orders, and quantity.
 
-🔝 Top 5 Pizzas by Revenue
+
+## 🔝 Top 5 Pizzas by Revenue
 
 Highest revenue generating pizzas include:
 
@@ -141,7 +145,8 @@ The Classic Deluxe Pizza
 
 The Spicy Italian Pizza
 
-🔝 Top 5 Pizzas by Total Orders
+
+## 🔝 Top 5 Pizzas by Total Orders
 
 Most frequently ordered pizzas include:
 
@@ -155,7 +160,8 @@ Barbecue Chicken Pizza
 
 Thai Chicken Pizza
 
-🔻 Bottom 5 Pizzas by Revenue
+
+## 🔻 Bottom 5 Pizzas by Revenue
 
 Lowest revenue generating pizzas include:
 
@@ -169,7 +175,8 @@ Mediterranean Pizza
 
 Spinach Pesto Pizza
 
-🔻 Bottom 5 Pizzas by Quantity
+
+## 🔻 Bottom 5 Pizzas by Quantity
 
 Least ordered pizzas include:
 
@@ -183,14 +190,17 @@ Soppressata Pizza
 
 Spinach Supreme Pizza
 
-🛠 Tools & Technologies Used
+
+## 🛠 Tools & Technologies Used
+
 Tool	Purpose
 Power BI	Dashboard Development
 Power Query	Data Cleaning
 DAX	Data Analysis
 Excel / CSV	Dataset
 SQL	Data Querying
-📂 Project Structure
+
+## 📂 Project Structure
 Pizza-Sales-PowerBI-Dashboard
 │
 ├── Dataset
@@ -207,7 +217,8 @@ Pizza-Sales-PowerBI-Dashboard
 │   └── pizza_sales_queries.sql
 │
 └── README.md
-🧮 Key DAX Measures
+
+## 🧮 Key DAX Measures
 Total Revenue
 Total Revenue = SUM(pizza_sales[total_price])
 Total Orders
@@ -218,7 +229,9 @@ Average Order Value
 Avg Order Value = DIVIDE([Total Revenue], [Total Orders])
 Average Pizzas per Order
 Avg Pizzas Per Order = DIVIDE([Total Pizzas Sold], [Total Orders])
-📊 Data Analysis Workflow
+
+
+## 📊 Data Analysis Workflow
 
 The project follows a standard data analytics workflow:
 
@@ -234,34 +247,38 @@ Dashboard Development
 
 Business Insights Generation
 
-📸 Dashboard Preview
+## 📸 Dashboard Preview
+
 Sales Overview Dashboard
 (Add screenshot here)
 ![Sales Dashboard](Images/sales_dashboard.png)
 Best & Worst Sellers Dashboard
 ![Best Worst Dashboard](Images/best_worst_dashboard.png)
-📈 Key Business Insights
-1️⃣ Peak Sales Days
+
+## 📈 Key Business Insights
+
+## 1️⃣ Peak Sales Days
 
 Friday and Thursday have the highest order volumes.
 
-2️⃣ Best Performing Category
+## 2️⃣ Best Performing Category
 
 Classic pizzas generate the highest revenue and quantity sold.
 
-3️⃣ Preferred Pizza Size
+## 3️⃣ Preferred Pizza Size
 
 Large pizzas are the most preferred among customers.
 
-4️⃣ Seasonal Sales Pattern
+## 4️⃣ Seasonal Sales Pattern
 
 Sales gradually increase throughout the year with peak demand in mid-year months.
 
-5️⃣ Underperforming Products
+## 5️⃣ Underperforming Products
 
 Certain pizzas consistently appear in bottom seller lists, indicating opportunities for menu optimization.
 
-🚀 How to Use the Dashboard
+
+## 🚀 How to Use the Dashboard
 
 Clone or download the repository
 
@@ -271,7 +288,7 @@ Load the dataset if required
 
 Explore the dashboard using slicers and filters
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Praveen Kumar
 
